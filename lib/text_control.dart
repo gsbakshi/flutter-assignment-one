@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'text.dart';
+import 'text_output.dart';
 
 class TextController extends StatefulWidget {
   @override
@@ -9,6 +9,13 @@ class TextController extends StatefulWidget {
 
 class _TextControllerState extends State<TextController> {
   String _display, comp = 'Learning Flutter';
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    
+    super.initState();
+  }
 
   void pressed() {
     setState(() {
