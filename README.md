@@ -1,6 +1,6 @@
 # assignment_one
 
-An Assignment to practice changing the state due to an event, in a Flutter App.
+An Assignment to practice changing the state triggered due to an event/action, in a Flutter App.
 Part of the coursework of https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/practice/1123028/
 
 Given objectives of the Assignment:
