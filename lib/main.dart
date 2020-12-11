@@ -2,6 +2,8 @@
 //// 2) Add a button which changes the text (to any other text of your choice)
 //// 3) Split the app into three widgets: App, TextControl & Text
 
+/// Changing State
+
 import 'package:flutter/material.dart';
 
 import 'text_control.dart';
@@ -14,13 +16,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.amber,
       ),
       home: Scaffold(
         appBar: AppBar(
           title: Text(
-            'Assignment'
-          )
+            'Assignment',
+          ),
+          backgroundColor: Colors.amberAccent[700],
         ),
         body: TextController(),
       ),

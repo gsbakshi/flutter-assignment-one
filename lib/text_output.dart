@@ -5,13 +5,10 @@ class Output extends StatelessWidget {
   Output(this.display);
   @override
   Widget build(BuildContext context) {
+    // print(display);
     return Text(
-      // 'dsd',
       display,
-      style: TextStyle(
-        fontSize: 20,
-        fontWeight: FontWeight.w600
-      ),
+      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
     );
   }
 }

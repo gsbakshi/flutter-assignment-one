@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'text_output.dart';
@@ -8,18 +9,18 @@ class TextController extends StatefulWidget {
 }
 
 class _TextControllerState extends State<TextController> {
-  String _display, comp = 'Learning Flutter';
+  String _display, _comp;
 
   @override
   void initState() {
-    // TODO: implement initState
-    
     super.initState();
+    _display = 'Learning Flutter';
+    _comp = 'Learning Flutter';
   }
 
   void pressed() {
     setState(() {
-      if (_display == comp) {
+      if (_display == _comp) {
         _display = 'Changing State';
       } else {
         _display = 'Learning Flutter';
@@ -29,6 +30,7 @@ class _TextControllerState extends State<TextController> {
 
   @override
   Widget build(BuildContext context) {
+    print(_display);
     return Container(
       width: double.infinity,
       margin: const EdgeInsets.all(20),
@@ -42,7 +44,7 @@ class _TextControllerState extends State<TextController> {
             padding: const EdgeInsets.symmetric(
               vertical: 20,
             ),
-            child: RaisedButton(
+            child: CupertinoButton(
               child: Text('Click Here'),
               color: Colors.amber,
               onPressed: pressed,
