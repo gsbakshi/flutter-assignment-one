@@ -1,15 +1,26 @@
-# assignment_one
+# Changing State - Assignment 1
 
-An Assignment to practice changing the state triggered due to an event/action, in a Flutter App.
-Part of the coursework of https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/practice/1123028/
+![Made with](https://img.shields.io/badge/Made%20with-Dart-blue)
+![flutter](https://img.shields.io/badge/flutter-v1.22.5-blue)
 
-Given objectives of the Assignment:
+## Basic Overview
 
-1) Create a new Flutter App (in this project) and output an AppBar and some text below it
-2) Add a button which changes the text (to any other text of your choice)
-3) Split the app into three widgets: App, TextControl & Text
+An exercise from Maximilian Schwarzmüller's course on [Flutter & Dart - The Complete Guide](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/) on Udemy.
+
+A Simple App, where a user can change the text on the screen repeatedly by triggering an event i.e. clicking on the button.
+
+## Objectives
+```
+- Create a new Flutter App (in this project) and output an AppBar and some text below it
+- Add a button which changes the text (to any other text of your choice)
+- Split the app into three widgets: App, TextControl & Text
+```
+
+## Walkthrough
+
+Simulator used was an iPhone 12 Pro Max.
 
 <div style="display:flex">
-    <img src="/Screenshots/one.png" alt="Screenshot" width="250">
-    <img src="/Screenshots/two.png" alt="Screenshot" width="250">
+    <img src="/Screenshots/one.png" alt="Screenshot" width=45%>
+    <img src="/Screenshots/two.png" alt="Screenshot" width=45%>
 </div>
