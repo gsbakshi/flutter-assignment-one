@@ -21,6 +21,6 @@ A Simple App, where a user can change the text on the screen repeatedly by trigg
 Simulator used was an iPhone 12 Pro Max.
 
 <div style="display:flex">
-    <img src="/Screenshots/one.png" alt="Screenshot" width=45%>
-    <img src="/Screenshots/two.png" alt="Screenshot" width=45%>
+    <img src="/Screenshots/1.png" alt="Screenshot" width=45%>
+    <img src="/Screenshots/2.png" alt="Screenshot" width=45%>
 </div>
